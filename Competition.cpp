@@ -8,7 +8,7 @@ Competition::Competition()
 
 {   for (int i;i<8;i++)
       { Groupe g ;
-        cout<<"Donner le groupe n:"<<i<<endl ;
+        cout<<"Donner le groupe "<<i<<":"<<endl ;
         phasedegroupe[i]=g;
         phasedegroupe[i].Groupe::jouergroupe();
 
